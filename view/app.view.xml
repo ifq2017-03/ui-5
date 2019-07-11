@@ -2,4 +2,5 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Hello WorldJahnik"/>
-</mvc:View>
+   <Link text="Jahnik ist doof" href="www.brazzers.com"/>
+   </mvc:View>
