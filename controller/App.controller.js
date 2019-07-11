@@ -5,7 +5,7 @@ sap.ui.define([
    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
       onShowHello : function () {
          // show a native JavaScript alert
-         alert("Hello World");
+         alert("ALARM!!!!");
       }
    });  
 }); 
