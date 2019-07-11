@@ -3,5 +3,5 @@
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Hello WorldJahnik"/>
    <Link text="Jahnik ist doof" href="https://www.trans-ident.de/trans-ident-beratungsstelle"/>
-   <image src="https://thumbs.gfycat.com/MenacingEveryBighornsheep.webp"/>
+   <Image src="https://thumbs.gfycat.com/MenacingEveryBighornsheep.webp"/>
    </mvc:View>
