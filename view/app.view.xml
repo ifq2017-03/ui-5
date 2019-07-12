@@ -19,4 +19,4 @@
     <Button
       text="Armin"
       press="AlarmButtonPress"/>
-   </mvc:View>
+   </mvc:View>   
