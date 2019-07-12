@@ -16,4 +16,7 @@
     <Button
       text="Say Hello"
       press=".onShowHello"/>
+       <Button
+      text="Armin"
+      press="AlarmButtonPress"/>
    </mvc:View>
