@@ -1,5 +1,5 @@
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.App"
+   controllerName="hts.itq2017.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
@@ -11,7 +11,11 @@
    <Image src="https://steamuserimages-a.akamaihd.net/ugc/947334029212427362/D9B85ED1BCC088ED09913762E94FCD917E3E47E3/"/>
    <Image src="https://media1.tenor.com/images/67983f97d26b535a9937d9fc327e6086/tenor.gif"/>
      <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
-      
+      <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="20%"/>
+      <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
+   </VBox>
+</mvc:View>
+ 
    <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
     <Button
       text="Say Hello"
