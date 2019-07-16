@@ -3,7 +3,6 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
-   <VBox>
    <Text text="Hello WorldJahnik"/>
    <Link text="Der Jaaaahnik" href="https://media.tenor.com/images/ccf3069a295be08b371a9097841e4ec9/tenor.gif"/>
    <Image src="https://thumbs.gfycat.com/MenacingEveryBighornsheep.webp"/>
@@ -14,5 +13,5 @@
      <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
       <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="20%"/>
       <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
-   </VBox>
+   
 </mvc:View>
