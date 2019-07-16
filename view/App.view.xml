@@ -16,12 +16,3 @@
       <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
    </VBox>
 </mvc:View>
- 
-   <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
-    <Button
-      text="Say Hello"
-      press=".onShowHello"/>
-    <Button
-      text="Armin"
-      press="AlarmButtonPress"/>
-   </mvc:View>   
